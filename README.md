@@ -21,7 +21,7 @@ result   1/1     1            1           81s
 vote     1/1     1            1           81s
 worker   1/1     1            1           81s
 ```
-We see that our vote deployment is delivered via 2 pods (2 replicat sets)
+We see that our vote deployment is delivered via 1 pod
 
 ```
 $ kubectl get svc/vote
